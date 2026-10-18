@@ -15,22 +15,27 @@
 
 Notes, screenshots, and full walkthroughs from CTF rooms and labs I've worked through — mostly web exploitation and application security, written up the way I'd want to read them back in six months.
 
+
 ## 📚 Index
 
 | Room | Platform | Category | Difficulty | Vulnerability | Writeup |
 |---|---|---|---|---|---|
 | 💌 TryHeartMe | TryHackMe | Web Exploitation | 🟢 Easy | Unverified/Forgeable JWT (CWE-347) | [Read →](TryHeartMe/README.md) |
+| 🎯 TakeOver | TryHackMe | Recon / Enumeration | 🟡 Medium | Hostname disclosure via TLS cert SAN field | [Read →](TakeOver/README.md) |
 
 > New writeups get added as a new folder + a new row here.
 
 ## 🗂️ Repo Structure
 
 ```text
-ctf-writeups/
+TryHackMe-writeups/
 ├── README.md                  ← you are here
-└── TryHeartMe/
+├── TryHeartMe/
+│   ├── README.md               ← full writeup
+│   └── images/                 ← numbered screenshots referenced in the writeup
+└── TakeOver/
     ├── README.md               ← full writeup
-    └── images/                 
+    └── images/                  
 ```
 
 ## 🧭 How each writeup is organized
