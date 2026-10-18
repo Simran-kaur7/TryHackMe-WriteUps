@@ -22,6 +22,7 @@ Notes, screenshots, and full walkthroughs from CTF rooms and labs I've worked th
 |---|---|---|---|---|---|
 | 💌 TryHeartMe | TryHackMe | Web Exploitation | 🟢 Easy | Unverified/Forgeable JWT (CWE-347) | [Read →](TryHeartMe/README.md) |
 | 🎯 TakeOver | TryHackMe | Recon / Enumeration | 🟡 Medium | Hostname disclosure via TLS cert SAN field | [Read →](TakeOver/README.md) |
+| 🏴‍☠️ Simple CTF | TryHackMe | Web Exploitation / Privesc | 🟢 Easy | SQL Injection (CVE-2019-9053) + Sudo Misconfiguration | [Read →](SimpleCTF/README.md) |
 
 > New writeups get added as a new folder + a new row here.
 
@@ -33,9 +34,12 @@ TryHackMe-writeups/
 ├── TryHeartMe/
 │   ├── README.md               ← full writeup
 │   └── images/                 ← numbered screenshots referenced in the writeup
-└── TakeOver/
+├── TakeOver/
+│   ├── README.md               ← full writeup
+│   └── images/ 
+└── SimpleCTF/
     ├── README.md               ← full writeup
-    └── images/                  
+    └── images/               
 ```
 
 ## 🧭 How each writeup is organized
