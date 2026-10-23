@@ -15,7 +15,6 @@
 
 Notes, screenshots, and full walkthroughs from CTF rooms and labs I've worked through — mostly web exploitation and application security, written up the way I'd want to read them back in six months.
 
-
 ## 📚 Index
 
 | Room | Platform | Category | Difficulty | Vulnerability | Writeup |
@@ -23,6 +22,8 @@ Notes, screenshots, and full walkthroughs from CTF rooms and labs I've worked th
 | 💌 TryHeartMe | TryHackMe | Web Exploitation | 🟢 Easy | Unverified/Forgeable JWT (CWE-347) | [Read →](TryHeartMe/README.md) |
 | 🎯 TakeOver | TryHackMe | Recon / Enumeration | 🟡 Medium | Hostname disclosure via TLS cert SAN field | [Read →](TakeOver/README.md) |
 | 🏴‍☠️ Simple CTF | TryHackMe | Web Exploitation / Privesc | 🟢 Easy | SQL Injection (CVE-2019-9053) + Sudo Misconfiguration | [Read →](SimpleCTF/README.md) |
+| 💬 Speed Chatting | TryHackMe | Web Exploitation | 🟢 Easy | Unrestricted File Upload → Remote Code Execution | [Read →](Speed%20Chatting/README.md) |
+| 🔓 Crack The Hash | TryHackMe | Hash Cracking | 🟢 Easy | Weak/crackable password hashes (MD5, SHA1, SHA256, bcrypt, sha512crypt) | [Read →](Crack%20The%20Hash/README.md) |
 
 > New writeups get added as a new folder + a new row here.
 
@@ -32,14 +33,19 @@ Notes, screenshots, and full walkthroughs from CTF rooms and labs I've worked th
 TryHackMe-writeups/
 ├── README.md                  ← you are here
 ├── TryHeartMe/
-│   ├── README.md               ← full writeup
-│   └── images/                 ← numbered screenshots referenced in the writeup
+│   ├── README.md               
+│   └── images/                 
 ├── TakeOver/
-│   ├── README.md               ← full writeup
-│   └── images/ 
-└── SimpleCTF/
-    ├── README.md               ← full writeup
-    └── images/               
+│   ├── README.md               
+│   └── images/
+├── SimpleCTF/
+│   ├── README.md               
+│   └── images/
+├── Speed Chatting/
+│   ├── README.md               
+│   └── images/
+└── Crack The Hash/
+    └── README.md               
 ```
 
 ## 🧭 How each writeup is organized
