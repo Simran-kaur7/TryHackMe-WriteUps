@@ -49,7 +49,7 @@ TryHackMe-writeups/
 │   └── images/
 ├── Crack The Hash/
 │   └── README.md
-└── Light/
+└── LightRoom/
     └── README.md
 ```
 

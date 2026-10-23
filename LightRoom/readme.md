@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💡 Light
+# 💡 LightRoom
 
 *Blind-lookup to full dump: breaking a SQLite backend with UNION-based injection, one filtered keyword at a time.*
 
