@@ -6,7 +6,7 @@
 
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-red?style=flat-square&logo=tryhackme&logoColor=white)
 ![Web Exploitation](https://img.shields.io/badge/Focus-Web%20%26%20AppSec-blueviolet?style=flat-square)
-![Writeups](https://img.shields.io/badge/Writeups-1-informational?style=flat-square)
+![Writeups](https://img.shields.io/badge/Writeups-6-informational?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 </div>
@@ -24,6 +24,7 @@ Notes, screenshots, and full walkthroughs from CTF rooms and labs I've worked th
 | 🏴‍☠️ Simple CTF | TryHackMe | Web Exploitation / Privesc | 🟢 Easy | SQL Injection (CVE-2019-9053) + Sudo Misconfiguration | [Read →](SimpleCTF/README.md) |
 | 💬 Speed Chatting | TryHackMe | Web Exploitation | 🟢 Easy | Unrestricted File Upload → Remote Code Execution | [Read →](Speed%20Chatting/README.md) |
 | 🔓 Crack The Hash | TryHackMe | Hash Cracking | 🟢 Easy | Weak/crackable password hashes (MD5, SHA1, SHA256, bcrypt, sha512crypt) | [Read →](Crack%20The%20Hash/README.md) |
+| LightRoom | TryHackMe | SQL Injection / SQLite | Easy | UNION-based SQLi in a raw TCP lookup service (filter bypass via case randomization) | [`./LightRoom/README.md`](./Light/README.md) |
 
 > New writeups get added as a new folder + a new row here.
 
@@ -44,8 +45,10 @@ TryHackMe-writeups/
 ├── Speed Chatting/
 │   ├── README.md               
 │   └── images/
-└── Crack The Hash/
-    └── README.md               
+├── Crack The Hash/
+│   └── README.md
+└── Light/
+    └── README.md
 ```
 
 ## 🧭 How each writeup is organized
