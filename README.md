@@ -14,9 +14,9 @@
 ---
 
 Notes, screenshots, and full walkthroughs from CTF rooms and labs I've worked through — mostly web exploitation and application security, written up the way I'd want to read them back in six months.
-
-## 📚 Index
-
+ 
+## 📖 Index
+ 
 | Room | Platform | Category | Difficulty | Vulnerability | Writeup |
 |---|---|---|---|---|---|
 | 💌 TryHeartMe | TryHackMe | Web Exploitation | 🟢 Easy | Unverified/Forgeable JWT (CWE-347) | [Read →](TryHeartMe/README.md) |
@@ -24,7 +24,9 @@ Notes, screenshots, and full walkthroughs from CTF rooms and labs I've worked th
 | 🏴‍☠️ Simple CTF | TryHackMe | Web Exploitation / Privesc | 🟢 Easy | SQL Injection (CVE-2019-9053) + Sudo Misconfiguration | [Read →](SimpleCTF/README.md) |
 | 💬 Speed Chatting | TryHackMe | Web Exploitation | 🟢 Easy | Unrestricted File Upload → Remote Code Execution | [Read →](Speed%20Chatting/README.md) |
 | 🔓 Crack The Hash | TryHackMe | Hash Cracking | 🟢 Easy | Weak/crackable password hashes (MD5, SHA1, SHA256, bcrypt, sha512crypt) | [Read →](Crack%20The%20Hash/README.md) |
-| LightRoom | TryHackMe | SQL Injection / SQLite | Easy | UNION-based SQLi in a raw TCP lookup service (filter bypass via case randomization) | [Read →](LightRoom/README.md) |
+| 💡 LightRoom | TryHackMe | SQL Injection / SQLite | 🟢 Easy | UNION-based SQL Injection (CWE-89) — raw TCP lookup service, keyword & comment-sequence filter bypass | [Read →](LightRoom/README.md) |
+ 
+---
 
 > New writeups get added as a new folder + a new row here.
 
