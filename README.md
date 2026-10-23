@@ -6,7 +6,7 @@
 
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-red?style=flat-square&logo=tryhackme&logoColor=white)
 ![Web Exploitation](https://img.shields.io/badge/Focus-Web%20%26%20AppSec-blueviolet?style=flat-square)
-![Writeups](https://img.shields.io/badge/Writeups-1-informational?style=flat-square)
+![Writeups](https://img.shields.io/badge/Writeups-5-informational?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 </div>
