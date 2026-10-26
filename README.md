@@ -6,7 +6,7 @@
 
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-red?style=flat-square&logo=tryhackme&logoColor=white)
 ![Web Exploitation](https://img.shields.io/badge/Focus-Web%20%26%20AppSec-blueviolet?style=flat-square)
-![Writeups](https://img.shields.io/badge/Writeups-6-informational?style=flat-square)
+![Writeups](https://img.shields.io/badge/Writeups-7-informational?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 </div>
@@ -25,6 +25,7 @@ Notes, screenshots, and full walkthroughs from CTF rooms and labs I've worked th
 | 💬 Speed Chatting | TryHackMe | Web Exploitation | 🟢 Easy | Unrestricted File Upload → Remote Code Execution | [Read →](Speed%20Chatting/README.md) |
 | 🔓 Crack The Hash | TryHackMe | Hash Cracking | 🟢 Easy | Weak/crackable password hashes (MD5, SHA1, SHA256, bcrypt, sha512crypt) | [Read →](Crack%20The%20Hash/README.md) |
 | 💡 LightRoom | TryHackMe | SQL Injection / SQLite | 🟢 Easy | UNION-based SQL Injection (CWE-89) — raw TCP lookup service, keyword & comment-sequence filter bypass | [Read →](LightRoom/README.md) |
+| 🥚 Easy Peasy | TryHackMe | Enumeration / Privilege Escalation | 🟢 Easy | Writable root cron job (CWE-732) | [Read →](Easy%20Peasy/README.md) |
  
 ---
 
@@ -49,19 +50,22 @@ TryHackMe-writeups/
 │   └── images/
 ├── Crack The Hash/
 │   └── README.md
-└── LightRoom/
-    └── README.md
+├── LightRoom/
+│   └── README.md
+└── Easy Peasy/
+    ├── README.md
+    └── images/
 ```
 
 ## 🧭 How each writeup is organized
 
 Every room folder follows the same shape so they're easy to skim:
 
-- **TL;DR** — the exploit in a few lines, for anyone just browsing
-- **Room info** — platform, category, difficulty, vulnerability class
-- **Methodology** — numbered steps with collapsible screenshots
-- **Root cause / Impact / Remediation** — the "why it matters" section
-- **Key takeaway** — one line worth remembering
+- **So what's this room about** — the room in plain terms, what it's actually testing
+- **What I used** — the tools that mattered for that specific room
+- **How it went down** — numbered steps, with inline screenshots as proof
+- **What I actually learned** — the takeaways worth remembering next time
+- **About the flag(s)** — flags, passwords, and cracked hashes, redacted per TryHackMe's rules (never posted in plaintext)
 
 ## ⚠️ A note on scope
 
@@ -74,4 +78,3 @@ These writeups cover publicly released, intentionally vulnerable training rooms/
 ⭐ If something here is useful, a star helps more people find it.
 
 </div>
-
