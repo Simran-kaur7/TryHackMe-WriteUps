@@ -6,7 +6,7 @@
 
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-red?style=flat-square&logo=tryhackme&logoColor=white)
 ![Web Exploitation](https://img.shields.io/badge/Focus-Web%20%26%20AppSec-blueviolet?style=flat-square)
-![Writeups](https://img.shields.io/badge/Writeups-7-informational?style=flat-square)
+![Writeups](https://img.shields.io/badge/Writeups-8-informational?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 </div>
@@ -26,6 +26,7 @@ Notes, screenshots, and full walkthroughs from CTF rooms and labs I've worked th
 | 🔓 Crack The Hash | TryHackMe | Hash Cracking | 🟢 Easy | Weak/crackable password hashes (MD5, SHA1, SHA256, bcrypt, sha512crypt) | [Read →](Crack%20The%20Hash/README.md) |
 | 💡 LightRoom | TryHackMe | SQL Injection / SQLite | 🟢 Easy | UNION-based SQL Injection (CWE-89) — raw TCP lookup service, keyword & comment-sequence filter bypass | [Read →](LightRoom/README.md) |
 | 🥚 Easy Peasy | TryHackMe | Enumeration / Privilege Escalation | 🟢 Easy | Writable root cron job (CWE-732) | [Read →](Easy%20Peasy/README.md) |
+| 🎮 GamingServer | TryHackMe | Web Exploitation / Privilege Escalation | 🟡 Medium | Directory fuzzing exposed an encrypted SSH key + custom wordlist → cracked passphrase → `lxd` group container escape to root | [Read →](GamingServer/README.md) |
  
 ---
 
@@ -52,7 +53,10 @@ TryHackMe-writeups/
 │   └── README.md
 ├── LightRoom/
 │   └── README.md
-└── Easy Peasy/
+├── Easy Peasy/
+│   ├── README.md
+│   └── images/
+└── GamingServer/
     ├── README.md
     └── images/
 ```
