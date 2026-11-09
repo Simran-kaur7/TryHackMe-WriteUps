@@ -6,7 +6,7 @@
 
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-red?style=flat-square&logo=tryhackme&logoColor=white)
 ![Web Exploitation](https://img.shields.io/badge/Focus-Web%20%26%20AppSec-blueviolet?style=flat-square)
-![Writeups](https://img.shields.io/badge/Writeups-8-informational?style=flat-square)
+![Writeups](https://img.shields.io/badge/Writeups-9-informational?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 </div>
@@ -27,6 +27,7 @@ Notes, screenshots, and full walkthroughs from CTF rooms and labs I've worked th
 | 💡 LightRoom | TryHackMe | SQL Injection / SQLite | 🟢 Easy | UNION-based SQL Injection (CWE-89) — raw TCP lookup service, keyword & comment-sequence filter bypass | [Read →](LightRoom/README.md) |
 | 🥚 Easy Peasy | TryHackMe | Enumeration / Privilege Escalation | 🟢 Easy | Writable root cron job (CWE-732) | [Read →](Easy%20Peasy/README.md) |
 | 🎮 GamingServer | TryHackMe | Web Exploitation / Privilege Escalation | 🟡 Medium | Directory fuzzing exposed an encrypted SSH key + custom wordlist → cracked passphrase → `lxd` group container escape to root | [Read →](GamingServer/README.md) |
+| 🐍 Python Playground | TryHackMe | Web Exploitation | 🔴 Hard | Client-side-only auth + reversible home-rolled hash + `__import__` blacklist bypass → RCE → SUID shell via shared `/mnt/log` mount to root | [Read →](PythonPlayground/README.md) |
  
 ---
 
@@ -56,9 +57,12 @@ TryHackMe-writeups/
 ├── Easy Peasy/
 │   ├── README.md
 │   └── images/
-└── GamingServer/
+├── GamingServer/
+│   ├── README.md
+│   └── images/
+└── PythonPlayground/
     ├── README.md
-    └── images/
+    └── assets/
 ```
 
 ## 🧭 How each writeup is organized
